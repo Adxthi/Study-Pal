@@ -1,0 +1,78 @@
+.custom-navbar {
+    background-color: #6a8caf; /* Change this to the desired background color */
+  }
+  
+  .nav-link {
+    color: #ffffff !important; /* Change this to the desired text color */
+    padding: 10px;
+    text-decoration:bold;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  
+  .nav-link:hover {
+    background-color: rgb(207, 207, 205); /* Change this to the desired hover background color */
+    border-radius: 4px;
+  }
+  
+  .navbar-nav .nav-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+
+/* Section styles */
+section {
+    padding: 100px 20px; /* Padding for each section */
+    margin-top: 20px; /* Margin between sections */
+}
+
+/* Individual section backgrounds */
+#home {
+    background: rgb(228, 143, 143);
+    height: auto; /* Full viewport height */
+}
+
+#about {
+    background: lightseagreen;
+    height: 100vh; /* Full viewport height */
+}
+
+#login {
+    background: lightsteelblue;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    background-color: white; /* White background for the form box */
+    padding: 2rem; /* Padding inside the form box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for the form box */
+}
+
+#contact {
+    background: lightgoldenrodyellow;
+     height: 100vh; 
+}
+
+#register {
+    background: lightgreen;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    /* Full viewport height */
+}
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    background-color: rgb(141, 212, 112); /* White background for the form box */
+    padding: 2rem; /* Padding inside the form box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for the form box */
+}
